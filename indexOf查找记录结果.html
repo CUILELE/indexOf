@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		/*
+		 * 查找"，"出现的次数，并记录每次出现的位置;
+			while(当查找的结果不等于-1的时候，就继续超找) {
+				1. 记录查找结果
+				2. 把结果放进数组
+				3.从找到的这位的下一位继续查找
+				
+			}
+		*/
+		var str = "当查找的查找结果不等于-1的时候，查找查找,把结果放进查找数组从找到查找查找的这位的下一位继续查找"
+		var nub = 0;
+		var arr = [];
+//		while(str.indexOf("查",nub)!=-1){
+//			nub = str.indexOf("查",nub);
+//			arr.push(nub);
+//			nub++;
+//		}
+//		console.log(arr)
+
+
+		while(str.indexOf("找",nub)!=-1){
+			nub = str.indexOf("找",nub);
+			arr.push(nub)
+			nub++;
+		}
+		console.log(arr)
+	</script>
+</html>
